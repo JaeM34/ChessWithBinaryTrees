@@ -14,3 +14,13 @@ to get desired results and
 1. Creation of the algorithm to train the AI
 1. Training the AI
 1. Intensive testing and optimization of the AI and code 
+
+## Phase 1: Chess Application
+### This phase consists of creating the Chess Game, do not focus on any other aspects other than recreating Chess
+1. Create the Chess Pieces
+	- Has the attribute of PlayerSide, defined by boolean: true meaning White, false meaning Black
+	- Has the attribute of an enumerated value of ChessPieceType
+		- Enumerations will be defined by: Pawn, Knight, Bishop, Rook, Queen and King
+	- ChessPiece will have a constructor that takes the paramaters Bool PlayerSide and ChessPieceType PieceType
+	- Add GetPlayerSide() and SetPlayerSide(Bool side) methods
+	- Add GetPieceType() and SetPieceType(ChessPieceType pieceType)
